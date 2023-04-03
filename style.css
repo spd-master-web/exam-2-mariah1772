@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+ 
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: gainsboro; 
+  padding: 20px; 
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.banner-content {
+  padding: 20%;
+  background-color: gray;
+  font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+button {
+  background-color: orange;
+  width: 205px;
+  height: 72px;
+  border-radius:10px 10px;
+  font-size: 20px;
+}
+
+.banner-bottom {
+  margin: 0;
+  position: absolute;
+ 
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+  background-color: white;
+}
+
+.container-item {
+  border: 2px solid white;
+  padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 30px;
+}
+
+.container-item img {
+  width: 100%;;
+  height: auto;
+  align-items: center;
+  margin:10px;
+  
+}
+
+footer {
+ background-image: url(img/bkg-productfacts-liquid.png);
+ background-repeat: repeat-x;
+ color: black;
+ background-size: contain;
+ 
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ margin:0;
+ padding: 200px 0 300px;
+ 
+}
+footer p{
+  color:white;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  
+}
+
+
+
+
