@@ -16,9 +16,8 @@ header {
 nav {
   background-color: gainsboro; 
   padding: 20px; 
-
-
   display: flex;
+
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
@@ -35,7 +34,7 @@ nav a {
 .banner-content {
   padding: 20%;
   background-color: gray;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 
 
 }
@@ -53,16 +52,53 @@ button {
   position: absolute;
  
 }
-.container{
-  width:100px;
 
-}
+.container {
+  width: 100%;
 
-.containers{
-  max-height: 70px;
-  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content:space-between;
+
+  background-color: white;
 }
+
+.container-item {
+  border: 2px solid white;
+  padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px 30px;
+}
+
+.container-item img {
+  width: 100%;;
+  height: auto;
+  align-items: center;
+  margin:10px;
+  
+}
+
+footer {
+ background-image: url(img/bkg-productfacts-liquid.png);
+ background-repeat: repeat-x;
+ color: black;
+ background-size: contain;
+ 
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ margin:0;
+ padding: 200px 0 300px;
+ 
+}
+footer p{
+  color:white;
+  font-size:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  
+}
+
+
+
 
